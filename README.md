@@ -28,3 +28,5 @@ You do not have to program any of the more difficult features of blackjack, like
 ### Some personal info about your coach (Koen)
 This was the first game I ever programmed in Javascript when I was 16. I was so proud on that accomplishment, I hope you will also feel joy when your version is created!
 https://www.youtube.com/watch?v=CLEd8Gph9hw
+useful link : https://www.youtube.com/watch?v=CLEd8Gph9hw
+
