@@ -1,12 +1,19 @@
 body {
-     background-color: beige;
+
+    background-image:  url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Righteous', cursive;
 }
+
 .container {
-    background-color: antiquewhite;
+    background-color: rgb(89, 120, 255);
+    opacity:0.6;
     border: blue;
+
 }
 
 h1 {
 
 }
+
