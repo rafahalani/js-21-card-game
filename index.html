@@ -2,20 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cards.css">
 </head>
 <body>
+<div class="container">
+    <div class="row">
+        <div class="container">
+            <div class="col-6">
+                <h1>Blackjack</h1>
+                <span>
+                    <p id="text-area">Welcome to Blackjack!</p>
+            <button type="button" class="btn btn-success" id="new-game-button">New Game!</button>
+            <button type="button" class="btn btn-danger" id="hit-button">Hit!</button>
+            <button type="button" class="btn btn-primary" id="stay-button">Stay</button>
 
+            </span>
+            </div>
 
+        </div>
+        <div class="col-6">
 
-<h1>Blackjack</h1>
-<p id="text-area">Welcome to Blackjack!</p>
-<button id="new-game-button">New Game!</button>
-<button id="hit-button">Hit!</button>
-<button id="stay-button">Stay</button>
-
+        </div>
+    </div>
+</div>
 <script src="21game.js"></script>
-
 </body>
 </html>
